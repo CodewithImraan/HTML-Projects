@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collage Tricky table</title>
+    <style>
+      table,
+      td,
+      tr,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      th {
+        color: brown;
+        background-color: aquamarine;
+      }
+      td {
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th></th>
+        <th>8:30 - 9:30</th>
+        <th>9:30 - 10:30</th>
+        <th>10:30 - 11:30</th>
+        <th>11:30 - 12:30</th>
+        <th>12:30 - 2:00</th>
+        <th>2:30 - 3:00</th>
+        <th>3:30 - 4:00</th>
+        <th>4:00 - 5:00</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>---</td>
+        <td style="color: red">SUB1</td>
+        <td>SUB2</td>
+        <td>SUB3</td>
+        <td rowspan="6">LAUNCH</td>
+        <td>SUB4</td>
+        <td>SUB5</td>
+        <td>councelling class</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>SUB1</td>
+        <td>SUB2</td>
+        <td>SUB3</td>
+        <td>---</td>
+
+        <td>SUB4</td>
+        <td>SUB5</td>
+        <td>LIBRARY</td>
+      </tr>
+      <tr>
+        <td>WEDNESDAY</td>
+        <td>SUB1</td>
+        <td>SUB2</td>
+        <td>SUB3</td>
+        <td>---</td>
+
+        <td colspan="3">LAB</td>
+        
+      </tr>
+      <tr>
+        <td>THURSDAY</td>
+        <td>SUB1</td>
+        <td>SUB2</td>
+        <td>SUB3</td>
+        <td>---</td>
+        <td>SUB4</td>
+        <td>SUB5</td>
+        <td>LIBRARY</td>
+      </tr>
+      <tr>
+        <td>FRIDAY</td>
+        <td>SUB1</td>
+        <td>SUB2</td>
+        <td>SUB3</td>
+        <td>---</td>
+        <td>SUB4</td>
+        <td>SUB5</td>
+        <td>PT</td>
+      </tr>
+      <tr>
+        <td>SATURDAY</td>
+        <td>SUB1</td>
+        <td colspan="3">SEMINAR</td>
+
+        <td>SUB4</td>
+        <td>SUB5</td>
+        <td>LIBRARY</td>
+      </tr>
+    </table>
+  </body>
+</html>

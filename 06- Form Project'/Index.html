@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job application</title>
+  </head>
+  <body>
+    <form action="https://toolsimr.com">
+      <h1>JOB application</h1>
+      <label for="name"> NAME:</label>
+      <input type="text" name="text" id="name" />
+      <br />
+      <br />
+      <label for="email">EAMIL:</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+      <label for="phone"> PHONE NO:</label>
+      <input type="number" name="number" id="phone" />
+      <br />
+      <br />
+      <label for="fl"> RESUME:</label>
+      <input type="file" name="file" id="fl" accept="Jpeg/img, png" />
+      <br />
+      <br />
+      <label for="no"> EXPERIANCE (IN YEARS):</label>
+      <input type="number" name="number" id="no" />
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>SKILLS</legend>
+
+        <input type="checkbox" name="box" id="box" />
+        <label for="box"> HTML</label>
+
+        <input type="checkbox" name="box" id="box" />
+        <label for="box"> CSS</label>
+
+        <input type="checkbox" name="box" id="box" />
+        <label for="box"> JAVASCRIPT</label>
+      </fieldset>
+
+      <br />
+      <label for="Qualification"> QUALIFICATION:</label>
+      <select name="Qualificaton" id="Qualification">
+        HIGHEST Qualification:
+        <option value="select one">select one</option>
+        <option value="BED">BED</option>
+        <option value="BED">MTech</option>
+        <option value="BED">Btech</option>
+        <option value="BED">Diploma</option>
+        <option value="BED">BED</option>
+      </select>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Availability</legend>
+        <label for="ft1">Full-time</label>
+        <input type="radio" name="radio" id="ft" />
+        <br />
+
+        <label for="ft2">part-time </label>
+        <input type="radio" name="radio" id="ft" />
+      </fieldset>
+      <br /><br />
+      <label for="cm"> Additional Comments:</label><br />
+      <textarea name="comments" id="cm" cols="35" rows="10"></textarea>
+      <br />
+
+      <input type="submit" value="submit application" />
+    </form>
+  </body>
+</html>
